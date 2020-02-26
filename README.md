@@ -1,1 +1,7 @@
-mobility_web_py
+# Mobile Web App
+
+- Bootstrap 4
+- XML
+- XSL
+- Python/flask
+

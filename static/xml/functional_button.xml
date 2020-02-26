@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<dropup>	
+	<dropup_item>
+		<link>F00</link>
+		<name>Exit</name>
+	</dropup_item>
+	<dropup_item>
+		<link>F01</link>
+		<name>Delete</name>
+	</dropup_item>
+	<dropup_item>
+		<link>F02</link>
+		<name>Save</name>
+	</dropup_item>
+	<dropup_item>
+		<link>F03</link>
+		<name>Logout</name>
+	</dropup_item>
+</dropup>

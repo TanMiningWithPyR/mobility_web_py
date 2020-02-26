@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<bookmark>
+	<item>
+		<link>#sub_screen1</link>
+		<name>Sub Screen1</name>
+	</item>
+
+	<item>
+		<link>#sub_screen2</link>
+		<name>Sub Screen2</name>	
+	</item>
+
+	<item>
+		<link>#sub_screen3</link>
+		<name>Sub Screen3</name>
+	</item>
+
+	<item>
+		<link>#sub_screen4</link>
+		<name>Sub Screen4</name>
+	</item>
+</bookmark>
