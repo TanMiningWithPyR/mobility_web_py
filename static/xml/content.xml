@@ -1,32 +1,91 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <content>
-<sub_screen>
-	<id>sub_screen1</id>
-	<name>Sub Screen1</name>
-	<sub_content>
-		1.Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-	</sub_content>
-</sub_screen>
-<sub_screen>
-	<id>sub_screen2</id>
-	<name>Sub Screen2</name>
-	<sub_content>
-		2.Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-	</sub_content>
-</sub_screen>
-<sub_screen>
-	<id>sub_screen3</id>
-	<name>Sub Screen3</name>
-	<sub_content>
-		3.Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-	</sub_content>
-</sub_screen>
-<sub_screen>
-	<id>sub_screen4</id>
-	<name>Sub Screen4</name>
-	<sub_content>
-		4.Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-	</sub_content>
-</sub_screen>
+<alert>
+	<info_item>
+		<type>3</type> <!-- error -->
+		<text>A simple error alert. Check it out!</text>
+	</info_item>
+	<info_item> 
+		<type>2</type> <!-- warning -->
+		<text>A simple warning alert. Check it out!</text>
+	</info_item>
+	<info_item>
+		<type>1</type> <!-- tamic -->
+		<text>A simple TAMIC alert. Check it out!</text>
+	</info_item>
+</alert>
+<system_info>
+	<info_item>
+		<id>sys_info_01</id>
+		<name>Bank</name>
+		<display>OCBC</display>
+	</info_item>
+
+	<info_item>
+		<id>sys_info_02</id>
+		<name>Function ID</name>
+		<display>HKBLTRGC</display>
+	</info_item>
+
+	<info_item>
+		<id>sys_info_03</id>
+		<name>Function Name</name>
+		<display>LT Registration Change</display>
+	</info_item>
+
+	<info_item>
+		<id>sys_info_04</id>
+		<name>Screen ID</name>
+		<display>KY</display>
+	</info_item>
+
+	<info_item>
+		<id>sys_info_05</id>
+		<name>User</name>
+		<display>TFY</display>
+	</info_item>
+
+	<info_item>
+		<id>sys_info_06</id>
+		<name>Datetime</name>
+		<display>20200228 10:10</display>
+	</info_item>
+</system_info>
+
+<pagination>
+	<page>
+		<no>1</no>
+		<link>HKBLCRGB</link>
+		<title>KEY INFO</title>
+		<screen>KY</screen>
+	</page>
+
+	<page>
+		<no>2</no>
+		<link>COMSIDSP</link>
+		<title>Standing Instruction</title>
+		<screen>SI</screen>
+	</page>
+
+	<page>
+		<no>3</no>
+		<link>HKBLCRGB</link>
+		<title>Basic Info</title>
+		<screen>M01</screen>
+	</page>
+
+	<page>
+		<no>4</no>
+		<link>HKBLCRGB</link>
+		<title>Basic Info</title>
+		<screen>CF</screen>
+	</page>
+</pagination>
+
+<screen>
+	<screen_id>HKBLTRGC_KY</screen_id>
+	<screen_bar_id>#HKBLTRGC_KY</screen_bar_id>
+	<screen_name>KEY INFO</screen_name>
+</screen>
 </content>

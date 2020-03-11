@@ -2,22 +2,22 @@
 
 <bookmark>
 	<item>
-		<link>#sub_screen1</link>
-		<name>Sub Screen1</name>
+		<link>#screen_layer_1</link>
+		<name>KEY INFO</name>
 	</item>
 
 	<item>
-		<link>#sub_screen2</link>
-		<name>Sub Screen2</name>	
+		<link>#screen_layer_2</link>
+		<name>STANDING INSTUCTION</name>	
 	</item>
 
 	<item>
-		<link>#sub_screen3</link>
-		<name>Sub Screen3</name>
+		<link>#screen_layer_3</link>
+		<name>BASIC INFO</name>
 	</item>
 
 	<item>
-		<link>#sub_screen4</link>
-		<name>Sub Screen4</name>
+		<link>#screen_layer_4</link>
+		<name>COMFIRM</name>
 	</item>
 </bookmark>

@@ -33,8 +33,12 @@ def bookmark():
 @app.route('/content')
 def content():
     test = convertXML.convertXML()
-    xml_file_name = 'D:\\DEVELOP\\mobility_web_py\\static\\xml\\content.xml'
-    xsl_file_name = 'D:\\DEVELOP\\mobility_web_py\\static\\xsl\\content.xsl'
+    # xml_file_name = 'D:\\DEVELOP\\mobility_web_py\\static\\xml\\content.xml'
+    # xsl_file_name = 'D:\\DEVELOP\\mobility_web_py\\static\\xsl\\content.xsl'
+
+    xml_file_name = 'D:\\DEVELOP\\mobility_web_py\\static\\xml\\content_multi_screen.xml'
+    xsl_file_name = 'D:\\DEVELOP\\mobility_web_py\\static\\xsl\\content_multi_screen.xsl'
+
     test.convert_from_file(xml_file_name, xsl_file_name)
     print(test.get_translated())
     return test.get_translated()
