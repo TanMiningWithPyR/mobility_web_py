@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/Popup.xsl"?>
+
+<MSG Version="1.1" FuncID="" ScrID="">
+    <Export_Info Version="" TXName="" />
+    <TX_Header ObjName="" ShortDesc="" />
+    <POPUP_Layout>
+        <POPUP_Header DspLen="080" ValLen="080" >
+		PopupHeaders
+        </POPUP_Header>
+        <POPUP_Body Count="10" >
+		PopupLines
+        </POPUP_Body>
+    </POPUP_Layout>
+</MSG>

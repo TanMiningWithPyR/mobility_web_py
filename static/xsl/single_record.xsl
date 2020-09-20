@@ -9,15 +9,15 @@
       <div class="container" id="single_record">
         <div class="form-group">
           <label for="formGroupExampleInput">Example label</label>
-          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder" />
         </div>
         <div class="form-group">
           <label for="formGroupExampleInput2">Another label</label>
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder" />
         </div>
       </div> 
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
         <label class="form-check-label" for="defaultCheck1">
           Default checkbox
         </label>

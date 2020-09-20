@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<function_button>
+<item>
+	<link>javascript:func_button.ok()</link>
+	<name>OK</name>	
+</item>
+<item>
+	<link>javascript:func_button.exit()</link>
+	<name>EXIT</name>		
+</item>	
+<item>
+	<link>#</link>
+	<name>HELP</name>	
+</item>
+<item>
+	<link>javascript:func_button.default_submit()</link>
+	<name>DEFAULT</name>	
+</item>
+</function_button>

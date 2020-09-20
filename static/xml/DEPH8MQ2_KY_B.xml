@@ -16,7 +16,7 @@
 
 <dropup>	
 	<dropup_item>
-		<link>F12</link>
+		<link>javascript:func_button.previous()</link>
 		<name>Previous</name>
 	</dropup_item>
 	<dropup_item>
@@ -30,6 +30,10 @@
 	<dropup_item>
 		<link>FZZ</link>
 		<name>Add</name>
+	</dropup_item>
+	<dropup_item>
+		<link>javascript:func_button.default_submit()</link>
+		<name>Default</name>
 	</dropup_item>
 </dropup>
 </function_button>

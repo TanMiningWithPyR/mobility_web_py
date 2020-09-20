@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/taibs/xslServlet?xsl=COMCHDSP_SC.Xsl=3"?>
+
+<MSG Version="1.1" UserID="1" FuncID="COMCHDSP" ScrID="SC" DateFormat="dd/MM/yyyy" Send_Date="23/05/2018" Send_Time="13:40:58">
+        <SYSTEM>
+        <Variable name="USERID" value="1" />
+        <Variable name="USERNAM" value="TEST                               " />
+        <Variable name="PRODATE" value="23/05/2018" srvvalue="23/05/2018" />
+        <Variable name="PROTIME" value="13:40:58" />
+        <Variable name="FUNID" value="COMCHDSP" />
+        <Variable name="FUNDESC" value="COMCHDSP" />
+        <Variable name="BRCHCOD" value="501   " />
+        <Variable name="BRCHNAM" value="OCBC CENTRE BR                     " />
+        <Variable name="LCYCODE" value="SGD" />
+        <Variable name="WORKSTA" value="WFVIEW01  " />
+        <Variable name="BANKID" value="5" />
+        <Variable name="NXTDATE" value="24/05/2018" srvvalue="20180524" />
+        <Variable name="PRVDATE" value="01/05/2017" srvvalue="20170501" />
+        <Variable name="BANKNM" value="OCBC BANK                          " />
+    </SYSTEM>
+
+<Export_Info Version="WX020001" TXName="COMCHDSP" />
+    <TX_Header ObjName="COMCHDSP" ShortDesc="COMCHDSP" />
+        <Screen_Flow>
+                <Screen ID="HKBLCCAASK" Desc=""   />
+                <Screen ID="HKBLCCAASC" Desc=""   />
+                <Screen ID="COMSIDSPSC" Desc=""   />
+                <Screen ID="HKBLCCAA01" Desc=""   />
+                <Screen ID="EXRATDSPSC" Desc=""   />
+                <Screen ID="COMCHDSPSC" Desc=""  IsActive="Y" />
+                <Screen ID="PROPRDSPSC" Desc=""   />
+                <Screen ID="COMGLDSPSC" Desc=""   />
+                <Screen ID="COMGLBALSC" Desc=""   />
+                <Screen ID="NARRADSPSC" Desc=""   />
+                <Screen ID="COMCLDSPSC" Desc=""   />
+                <Screen ID="AVSELDSPSC" Desc="-HKBLCCAACF"   />
+                <Screen ID="HKBLCCAACF" Desc=""   />
+    </Screen_Flow>
+
+    <ContentEditable>Y</ContentEditable>
+    <Screen_Layout>
+        <ScrFld Data_Index="COMCHDSP_WREFNUM" Value="LC5TF80000862"/>
+        <ScrFld Data_Index="COMCHDSP_WVERNUM" Value="3"/>
+        <ScrFld Data_Index="COMCHDSP_WFUNC" Value="HKBLCCAN"/>
+        <ScrFld Data_Index="COMCHDSP_WDRCY1" Value=""/>
+        <ScrFld Data_Index="COMCHDSP_WDRAM1" Value="0.00"/>
+        <ScrFld Data_Index="COMCHDSP_WDRCY2" Value=""/>
+        <ScrFld Data_Index="COMCHDSP_WDRAM2" Value="0.00"/>
+        <ScrFld Data_Index="COMCHDSP_WDRCY3" Value=""/>
+        <ScrFld Data_Index="COMCHDSP_WDRAM3" Value="0.00"/>
+        <ScrFld Data_Index="COMCHDSP_WCRCY1" Value=""/>
+        <ScrFld Data_Index="COMCHDSP_WCRAM1" Value="0.00"/>
+        <ScrFld Data_Index="COMCHDSP_WCRCY2" Value=""/>
+        <ScrFld Data_Index="COMCHDSP_WCRAM2" Value="0.00"/>
+        <ScrFld Data_Index="COMCHDSP_WCRCY3" Value=""/>
+        <ScrFld Data_Index="COMCHDSP_WCRAM3" Value="0.00"/>
+        <ScrSFL Name="MRE_COMCHDSP" RunSerial="0001" Occur="3">
+            <SFLLine Line_Index="1">
+                <SFLFld Name="COMCHDSP_CCTTYPE_001" Data_Index="COMCHDSP_CCTTYPE" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTFDES_001" Data_Index="COMCHDSP_CCTFDES" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTCCCY_001" Data_Index="COMCHDSP_CCTCCCY" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTCAMT_001" Data_Index="COMCHDSP_CCTCAMT" Value="0.00"/>
+                <SFLFld Name="COMCHDSP_WCHANGE_001" Data_Index="COMCHDSP_WCHANGE" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTAMID_001" Data_Index="COMCHDSP_CCTAMID" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTDRCR_001" Data_Index="COMCHDSP_CCTDRCR" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTACCY_001" Data_Index="COMCHDSP_CCTACCY" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTAAMT_001" Data_Index="COMCHDSP_CCTAAMT" Value="0.00"/>
+                <SFLFld Name="COMCHDSP_CCTGLNO_001" Data_Index="COMCHDSP_CCTGLNO" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTRATE_001" Data_Index="COMCHDSP_CCTRATE" Value="0.0000000"/>
+                <SFLFld Name="COMCHDSP_CCTEXRT_001" Data_Index="COMCHDSP_CCTEXRT" Value="0.0000000"/>
+                <SFLFld Name="COMCHDSP_CCTMLDV_001" Data_Index="COMCHDSP_CCTMLDV" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTFXTP_001" Data_Index="COMCHDSP_CCTFXTP" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTNEXP_001" Data_Index="COMCHDSP_CCTNEXP" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTCPTY_001" Data_Index="COMCHDSP_CCTCPTY" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTRCAL_001" Data_Index="COMCHDSP_CCTRCAL" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTGAMT_001" Data_Index="COMCHDSP_CCTGAMT" Value="0.00"/>
+                <SFLFld Name="COMCHDSP_CCTORCY_001" Data_Index="COMCHDSP_CCTORCY" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTORAM_001" Data_Index="COMCHDSP_CCTORAM" Value="0.00"/>
+                <SFLFld Name="COMCHDSP_HDUMMY_001" Data_Index="COMCHDSP_HDUMMY" Value=""/>
+                <SFLFld Name="COMCHDSP_SCRS99_001" Data_Index="COMCHDSP_SCRS99" Value=""/>
+                <SFLFld Name="COMCHDSP_SCRS00_001" Data_Index="COMCHDSP_SCRS00" Value="1"/>
+                <SFLFld Name="COMCHDSP_SCRS97_001" Data_Index="COMCHDSP_SCRS97" Value="0"/>
+                <SFLFld Name="COMCHDSP_SCRS98_001" Data_Index="COMCHDSP_SCRS98" Value=""/>
+            </SFLLine>
+            <SFLLine Line_Index="2">
+                <SFLFld Name="COMCHDSP_CCTTYPE_002" Data_Index="COMCHDSP_CCTTYPE" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTFDES_002" Data_Index="COMCHDSP_CCTFDES" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTCCCY_002" Data_Index="COMCHDSP_CCTCCCY" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTCAMT_002" Data_Index="COMCHDSP_CCTCAMT" Value="0.00"/>
+                <SFLFld Name="COMCHDSP_WCHANGE_002" Data_Index="COMCHDSP_WCHANGE" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTAMID_002" Data_Index="COMCHDSP_CCTAMID" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTDRCR_002" Data_Index="COMCHDSP_CCTDRCR" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTACCY_002" Data_Index="COMCHDSP_CCTACCY" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTAAMT_002" Data_Index="COMCHDSP_CCTAAMT" Value="0.00"/>
+                <SFLFld Name="COMCHDSP_CCTGLNO_002" Data_Index="COMCHDSP_CCTGLNO" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTRATE_002" Data_Index="COMCHDSP_CCTRATE" Value="0.0000000"/>
+                <SFLFld Name="COMCHDSP_CCTEXRT_002" Data_Index="COMCHDSP_CCTEXRT" Value="0.0000000"/>
+                <SFLFld Name="COMCHDSP_CCTMLDV_002" Data_Index="COMCHDSP_CCTMLDV" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTFXTP_002" Data_Index="COMCHDSP_CCTFXTP" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTNEXP_002" Data_Index="COMCHDSP_CCTNEXP" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTCPTY_002" Data_Index="COMCHDSP_CCTCPTY" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTRCAL_002" Data_Index="COMCHDSP_CCTRCAL" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTGAMT_002" Data_Index="COMCHDSP_CCTGAMT" Value="0.00"/>
+                <SFLFld Name="COMCHDSP_CCTORCY_002" Data_Index="COMCHDSP_CCTORCY" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTORAM_002" Data_Index="COMCHDSP_CCTORAM" Value="0.00"/>
+                <SFLFld Name="COMCHDSP_HDUMMY_002" Data_Index="COMCHDSP_HDUMMY" Value=""/>
+                <SFLFld Name="COMCHDSP_SCRS99_002" Data_Index="COMCHDSP_SCRS99" Value=""/>
+                <SFLFld Name="COMCHDSP_SCRS00_002" Data_Index="COMCHDSP_SCRS00" Value="2"/>
+                <SFLFld Name="COMCHDSP_SCRS97_002" Data_Index="COMCHDSP_SCRS97" Value="0"/>
+                <SFLFld Name="COMCHDSP_SCRS98_002" Data_Index="COMCHDSP_SCRS98" Value=""/>
+            </SFLLine>
+            <SFLLine Line_Index="3">
+                <SFLFld Name="COMCHDSP_CCTTYPE_003" Data_Index="COMCHDSP_CCTTYPE" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTFDES_003" Data_Index="COMCHDSP_CCTFDES" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTCCCY_003" Data_Index="COMCHDSP_CCTCCCY" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTCAMT_003" Data_Index="COMCHDSP_CCTCAMT" Value="0.00"/>
+                <SFLFld Name="COMCHDSP_WCHANGE_003" Data_Index="COMCHDSP_WCHANGE" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTAMID_003" Data_Index="COMCHDSP_CCTAMID" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTDRCR_003" Data_Index="COMCHDSP_CCTDRCR" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTACCY_003" Data_Index="COMCHDSP_CCTACCY" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTAAMT_003" Data_Index="COMCHDSP_CCTAAMT" Value="0.00"/>
+                <SFLFld Name="COMCHDSP_CCTGLNO_003" Data_Index="COMCHDSP_CCTGLNO" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTRATE_003" Data_Index="COMCHDSP_CCTRATE" Value="0.0000000"/>
+                <SFLFld Name="COMCHDSP_CCTEXRT_003" Data_Index="COMCHDSP_CCTEXRT" Value="0.0000000"/>
+                <SFLFld Name="COMCHDSP_CCTMLDV_003" Data_Index="COMCHDSP_CCTMLDV" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTFXTP_003" Data_Index="COMCHDSP_CCTFXTP" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTNEXP_003" Data_Index="COMCHDSP_CCTNEXP" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTCPTY_003" Data_Index="COMCHDSP_CCTCPTY" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTRCAL_003" Data_Index="COMCHDSP_CCTRCAL" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTGAMT_003" Data_Index="COMCHDSP_CCTGAMT" Value="0.00"/>
+                <SFLFld Name="COMCHDSP_CCTORCY_003" Data_Index="COMCHDSP_CCTORCY" Value=""/>
+                <SFLFld Name="COMCHDSP_CCTORAM_003" Data_Index="COMCHDSP_CCTORAM" Value="0.00"/>
+                <SFLFld Name="COMCHDSP_HDUMMY_003" Data_Index="COMCHDSP_HDUMMY" Value=""/>
+                <SFLFld Name="COMCHDSP_SCRS99_003" Data_Index="COMCHDSP_SCRS99" Value=""/>
+                <SFLFld Name="COMCHDSP_SCRS00_003" Data_Index="COMCHDSP_SCRS00" Value="3"/>
+                <SFLFld Name="COMCHDSP_SCRS97_003" Data_Index="COMCHDSP_SCRS97" Value="0"/>
+                <SFLFld Name="COMCHDSP_SCRS98_003" Data_Index="COMCHDSP_SCRS98" Value=""/>
+            </SFLLine>
+        </ScrSFL>
+    </Screen_Layout>
+ </MSG>

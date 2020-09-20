@@ -1,0 +1,15 @@
+#mre_tbody {
+	display:block;
+	height:430px;
+	overflow-y:scroll;
+}
+
+.mre_tr {
+	display:table;
+/* 	width:100%; */
+/* 	table-layout:fixed; */
+}
+
+/* table thead { */
+/* 	width:calc( 100% - 1em) */
+/* } */

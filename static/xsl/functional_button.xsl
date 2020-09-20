@@ -6,34 +6,16 @@
 <!-- <html>
 <body> -->
 <ul class="navbar-nav mr-auto">
-  <li class="nav-item col">
-    <a class="nav-link" href="#">
-      OK
-    </a>
-  </li>
-  <li class="nav-item col">
-    <a class="nav-link" href="#">
-      Cancel
-    </a>
-  </li>
-  <li class="nav-item col">
-    <a class="nav-link" href="#">
-      Refresh
-    </a>
-  </li>
-  <li class="nav-item dropup col">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">More...</a>
-    <div class="dropdown-menu">
-        <xsl:for-each select="dropup/dropup_item">  
-          <a class="dropdown-item">
-            <xsl:attribute name="href">
-              <xsl:value-of select="link"/>
-            </xsl:attribute>
-            <xsl:value-of select="name"/>
-          </a>
-        </xsl:for-each>
-    </div>
-  </li>
+  <xsl:for-each select="function_button/item">  
+	  <li class="nav-item col">
+	      <a class="nav-link">
+	        <xsl:attribute name="href">
+	          <xsl:value-of select="link"/>
+	        </xsl:attribute>
+	        <xsl:value-of select="name"/>
+	      </a>
+	  </li>
+  </xsl:for-each>
 </ul>
 <!-- </body>
 </html> -->

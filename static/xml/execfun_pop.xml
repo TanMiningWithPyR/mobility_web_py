@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/Popup.xsl"?>
+
+<MSG Version="1.1" FuncID="HKBLTRGC" ScrID="KY">
+    <Export_Info Version="WX020001" TXName="HKBLTRGC" />
+    <TX_Header ObjName="HKBLTRGC" ShortDesc="HKBLTRGC" />
+    <POPUP_Layout>
+        <POPUP_Header DspLen="080" ValLen="080" >
+            <POPUP_Title TitleNum="1" Value="REFNO/CUSTOMER&#160;NAME" />
+            <POPUP_Title TitleNum="2" Value="" />
+        </POPUP_Header>
+        <POPUP_Body Count="10" >
+            <POPUP_Line LineNo="0001" RtnVal="LT10130000038                                                                   " >
+                <POPUP_Col ColNum="1" Value="LT10130000038  TESTETP18                                                        " />
+            </POPUP_Line>
+            <POPUP_Line LineNo="0002" RtnVal="LT5TF50000033                                                                   " >
+                <POPUP_Col ColNum="1" Value="LT5TF50000033  masked                                                           " />
+            </POPUP_Line>
+            <POPUP_Line LineNo="0003" RtnVal="LT5TF50000041                                                                   " >
+                <POPUP_Col ColNum="1" Value="LT5TF50000041  masked                                                           " />
+            </POPUP_Line>
+            <POPUP_Line LineNo="0004" RtnVal="LT5TF50000132                                                                   " >
+                <POPUP_Col ColNum="1" Value="LT5TF50000132  masked                                                           " />
+            </POPUP_Line>
+            <POPUP_Line LineNo="0005" RtnVal="LT5TF50000165                                                                   " >
+                <POPUP_Col ColNum="1" Value="LT5TF50000165  masked                                                           " />
+            </POPUP_Line>
+            <POPUP_Line LineNo="0006" RtnVal="LT5TF60000049                                                                   " >
+                <POPUP_Col ColNum="1" Value="LT5TF60000049  masked                                                           " />
+            </POPUP_Line>
+            <POPUP_Line LineNo="0007" RtnVal="LT5TF60000056                                                                   " >
+                <POPUP_Col ColNum="1" Value="LT5TF60000056  masked                                                           " />
+            </POPUP_Line>
+            <POPUP_Line LineNo="0008" RtnVal="LT5TF70000039                                                                   " >
+                <POPUP_Col ColNum="1" Value="LT5TF70000039  masked                                                           " />
+            </POPUP_Line>
+            <POPUP_Line LineNo="0009" RtnVal="LT5TF70000047                                                                   " >
+                <POPUP_Col ColNum="1" Value="LT5TF70000047  masked                                                           " />
+            </POPUP_Line>
+            <POPUP_Line LineNo="0010" RtnVal="LT5TF70000054                                                                   " >
+                <POPUP_Col ColNum="1" Value="LT5TF70000054  masked                                                           " />
+            </POPUP_Line>
+        </POPUP_Body>
+    </POPUP_Layout>
+</MSG>

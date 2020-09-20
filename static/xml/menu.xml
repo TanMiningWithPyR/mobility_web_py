@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nav_item>
+	<item>
+		<link>#</link>
+		<name>配置表</name>
+		<enable>true</enable>
+		<dropdown>	
+			<dropdown_item>
+				<link>javascript:menu.menuSelect('TAACOCAN')</link>
+				<name>ACCOUNT OFFICER CREATION</name>
+			</dropdown_item>
+			<dropdown_item>
+				<link>javascript:menu.menuSelect('TAACOCAA')</link>
+				<name>ACCOUNT OFFICER APPROVAL</name>
+			</dropdown_item>
+		</dropdown>
+	</item>
+	<item>
+		<link>#</link>
+		<name>签到相框</name>
+		<enable>true</enable>
+		<dropdown>	
+			<dropdown_item>
+				<link>javascript:menu.menuSelect('HKBGLCAN')</link>
+				<name>新增</name>
+			</dropdown_item>
+			<dropdown_item>
+				<link>javascript:menu.menuSelect('HKBGLCAA')</link>
+				<name>修改</name>
+			</dropdown_item>
+			<dropdown_item>
+				<link>javascript:menu.menuSelect('HKBGLCAA')</link>
+				<name>删除</name>
+			</dropdown_item>			
+		</dropdown>
+	</item>
+</nav_item>

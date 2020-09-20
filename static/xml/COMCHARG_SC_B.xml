@@ -16,7 +16,7 @@
 
 <dropup>	
 	<dropup_item>
-		<link>F12</link>
+		<link>javascript:func_button.previous()</link>
 		<name>Previous</name>
 	</dropup_item>
 	<dropup_item>

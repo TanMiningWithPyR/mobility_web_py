@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MSG Version="1.1" UserID="1" FuncID="COMCHDSP" ScrID="SC" DateFormat="dd/MM/yyyy" Send_Date="23/05/2018" Send_Time="13:40:58">
+    <SYSTEM>
+    Variables
+    </SYSTEM>
+	<Message>Messages</Message>
+	
+    <Export_Info Version="WX020001" TXName="COMCHDSP" />
+    <TX_Header ObjName="COMCHDSP" ShortDesc="COMCHDSP" />
+    
+    <Screen_Flow>
+    Screens
+    </Screen_Flow>
+
+    <ContentEditable>Y</ContentEditable>
+    <Screen_Layout>
+    ScreenFields
+    </Screen_Layout>
+</MSG>

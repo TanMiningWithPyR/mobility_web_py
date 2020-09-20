@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/COMCHARG_SC.Xsl"?>
+
+<MSG Version="1.1" UserID="7" FuncID="COMCHARG" ScrID="SC" DateFormat="dd/MM/yyyy" Send_Date="10/01/2013" Send_Time="15:21:05">
+    <Export_Info Version="WX020001" TXName="COMCHARG" />
+    <TX_Header ObjName="COMCHARG" ShortDesc="COMCHARG" />
+    <Screen_Flow>
+		<Screen ID="HKBLCCANKY" Desc="Screen KY"   />
+		<Screen ID="COMSIDSPSC" Desc="STANDING INSTRUCTION DISPLAY"   />
+		<Screen ID="HKBLCCAN01" Desc="Screen 01"   />
+		<Screen ID="HKBLCCAN02" Desc="Screen 02"   />
+		<Screen ID="HKBLCCAN03" Desc="Screen 03"   />
+		<Screen ID="HKBLCCAN04" Desc="Screen 04"   />
+		<Screen ID="HKBLCCAN05" Desc="Screen 05"   />
+		<Screen ID="HKBLCCAN07" Desc="Screen 07"   />
+		<Screen ID="EXRATINPSC" Desc="FORWARD/SPOT EXCHANGE INPUT"   />
+		<Screen ID="COMCHARGSC" Desc="COMMISSION/CHARGES INPUT"  IsActive="Y" />
+		<Screen ID="PROCEEDSSC" Desc="PROCEEDS PAYMENT/RECEIVED INPUT"   />
+		<Screen ID="COMGLDSPSC" Desc="GENERAL LEDGER DISPLAY"   />
+		<Screen ID="COMGLBALSC" Desc="GENERAL LEDGER BALANCING DISPLAY"   />
+		<Screen ID="NARRAINPSC" Desc="COMMON NARRATIVES INPUT"   />
+		<Screen ID="COMCLAUSSC" Desc="COMMON CLAUSE INPUT"   />
+		<Screen ID="AVSELINPSC" Desc="ADVICE SELECTION INPUT"   />
+		<Screen ID="HKBLCCANCF" Desc="Screen CF"   />
+    </Screen_Flow>
+
+    <ContentEditable>Y</ContentEditable>
+    <Screen_Layout>
+        <ScrFld Data_Index="0000030" Value="LC5TF30000301"/>
+        <ScrFld Data_Index="0030003" Value="3"/>
+        <ScrFld Data_Index="0033008" Value="HKBLCCAN"/>
+        <ScrFld Data_Index="0041003" Value=""/>
+        <ScrFld Data_Index="0044015" Value="0.00"/>
+        <ScrFld Data_Index="0059003" Value=""/>
+        <ScrFld Data_Index="0062015" Value="0.00"/>
+        <ScrFld Data_Index="0077003" Value=""/>
+        <ScrFld Data_Index="0080015" Value="0.00"/>
+        <ScrFld Data_Index="0095003" Value=""/>
+        <ScrFld Data_Index="0098015" Value="0.00"/>
+        <ScrFld Data_Index="0113003" Value=""/>
+        <ScrFld Data_Index="0116015" Value="0.00"/>
+        <ScrFld Data_Index="0131003" Value=""/>
+        <ScrFld Data_Index="0134015" Value="0.00"/>
+        <ScrSFL Name="SCR02246" RunSerial="0001" Occur="03">
+            <SFLLine Line_Index="0001">
+                <SFLFld Data_Index="0000002" Value="PO"/>
+                <SFLFld Data_Index="0002018" Value="FAX CHARGES"/>
+                <SFLFld Data_Index="0020003" Value=""/>
+                <SFLFld Data_Index="0023015" Value="0.00"/>
+                <SFLFld Data_Index="0038001" Value=""/>
+                <SFLFld Data_Index="0039001" Value="&#43;"/>
+                <SFLFld Data_Index="0040002" Value="DR"/>
+                <SFLFld Data_Index="0042003" Value=""/>
+                <SFLFld Data_Index="0045015" Value="0.00"/>
+                <SFLFld Data_Index="0060016" Value="60052900"/>
+                <SFLFld Data_Index="0076010" Value="0.0000000"/>
+                <SFLFld Data_Index="0086012" Value="1.0000000"/>
+                <SFLFld Data_Index="0098001" Value=""/>
+                <SFLFld Data_Index="0099001" Value=""/>
+                <SFLFld Data_Index="0100001" Value="N"/>
+                <SFLFld Data_Index="0101011" Value=""/>
+                <SFLFld Data_Index="0112001" Value="C"/>
+                <SFLFld Data_Index="0113001" Value=""/>
+                <SFLFld Data_Index="0114003" Value="0"/>
+                <SFLFld Data_Index="0117015" Value="0.00"/>
+                <SFLFld Data_Index="0132003" Value=""/>
+                <SFLFld Data_Index="0135015" Value="0.00"/>
+                <SFLFld Data_Index="0150001" Value=""/>
+                <SFLFld Data_Index="0151079" Value="&#160;&#160;&#160;00000000000000@000  5                                     001000LC5TF3000030"/>
+            </SFLLine>
+            <SFLLine Line_Index="0002">
+                <SFLFld Data_Index="0000002" Value="PO"/>
+                <SFLFld Data_Index="0002018" Value="OAC INS PREMIUM"/>
+                <SFLFld Data_Index="0020003" Value=""/>
+                <SFLFld Data_Index="0023015" Value="0.00"/>
+                <SFLFld Data_Index="0038001" Value=""/>
+                <SFLFld Data_Index="0039001" Value="&#43;"/>
+                <SFLFld Data_Index="0040002" Value="DR"/>
+                <SFLFld Data_Index="0042003" Value=""/>
+                <SFLFld Data_Index="0045015" Value="0.00"/>
+                <SFLFld Data_Index="0060016" Value="2035299999999291"/>
+                <SFLFld Data_Index="0076010" Value="0.0000000"/>
+                <SFLFld Data_Index="0086012" Value="1.0000000"/>
+                <SFLFld Data_Index="0098001" Value=""/>
+                <SFLFld Data_Index="0099001" Value=""/>
+                <SFLFld Data_Index="0100001" Value="N"/>
+                <SFLFld Data_Index="0101011" Value=""/>
+                <SFLFld Data_Index="0112001" Value="C"/>
+                <SFLFld Data_Index="0113001" Value=""/>
+                <SFLFld Data_Index="0114003" Value="0"/>
+                <SFLFld Data_Index="0117015" Value="0.00"/>
+                <SFLFld Data_Index="0132003" Value=""/>
+                <SFLFld Data_Index="0135015" Value="0.00"/>
+                <SFLFld Data_Index="0150001" Value=""/>
+                <SFLFld Data_Index="0151079" Value="&#160;&#160;&#160;00000000000000@000  5                                     002000LC5TF3000030"/>
+            </SFLLine>
+            <SFLLine Line_Index="0003">
+                <SFLFld Data_Index="0000002" Value=""/>
+                <SFLFld Data_Index="0002018" Value=""/>
+                <SFLFld Data_Index="0020003" Value=""/>
+                <SFLFld Data_Index="0023015" Value="0.00"/>
+                <SFLFld Data_Index="0038001" Value=""/>
+                <SFLFld Data_Index="0039001" Value=""/>
+                <SFLFld Data_Index="0040002" Value=""/>
+                <SFLFld Data_Index="0042003" Value=""/>
+                <SFLFld Data_Index="0045015" Value="0.00"/>
+                <SFLFld Data_Index="0060016" Value=""/>
+                <SFLFld Data_Index="0076010" Value="0.0000000"/>
+                <SFLFld Data_Index="0086012" Value="0.0000000"/>
+                <SFLFld Data_Index="0098001" Value=""/>
+                <SFLFld Data_Index="0099001" Value=""/>
+                <SFLFld Data_Index="0100001" Value=""/>
+                <SFLFld Data_Index="0101011" Value=""/>
+                <SFLFld Data_Index="0112001" Value=""/>
+                <SFLFld Data_Index="0113001" Value=""/>
+                <SFLFld Data_Index="0114003" Value="0"/>
+                <SFLFld Data_Index="0117015" Value="0.00"/>
+                <SFLFld Data_Index="0132003" Value=""/>
+                <SFLFld Data_Index="0135015" Value="0.00"/>
+                <SFLFld Data_Index="0150001" Value=""/>
+                <SFLFld Data_Index="0151079" Value="&#160;&#160;&#160;00000000000000@000                                        003000"/>
+            </SFLLine>
+        </ScrSFL>
+    </Screen_Layout>
+ </MSG>

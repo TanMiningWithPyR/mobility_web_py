@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/COMSIDSP_SC.Xsl"?>
+
+<MSG Version="1.1" UserID="1" FuncID="COMSIDSP" ScrID="SC" DateFormat="dd/MM/yyyy" Send_Date="10/01/2013" Send_Time="11:04:10">
+    <Export_Info Version="WX020001" TXName="COMSIDSP" />
+    <TX_Header ObjName="COMSIDSP" ShortDesc="COMSIDSP" />
+    <Screen_Flow>
+                <Screen ID="HKBLTRGCKY" Desc="Screen KY"   />
+                <Screen ID="COMSIDSPSC" Desc="STANDING INSTRUCTION DISPLAY"  IsActive="Y" />
+                <Screen ID="HKBLTRGC01" Desc="Screen 01"   />
+                <Screen ID="HKBLTRGCCF" Desc="Screen CF"   />
+    </Screen_Flow>
+
+    <ContentEditable>Y</ContentEditable>
+    <Screen_Layout>
+        <ScrFld Data_Index="0000030" Value="LT5TF30000202"/>
+        <ScrFld Data_Index="0030012" Value="501013027203"/>
+        <ScrFld Data_Index="0042035" Value="masked"/>
+        <ScrFld Data_Index="0077060" Value=""/>
+        <ScrFld Data_Index="0137060" Value=""/>
+        <ScrFld Data_Index="0197060" Value=""/>
+        <ScrFld Data_Index="0257060" Value=""/>
+        <ScrSFL Name="SCR03189" RunSerial="0001" Occur="10">
+            <SFLLine Line_Index="0001">
+                <SFLFld Data_Index="0000001" Value=""/>
+                <SFLFld Data_Index="0001065" Value="SUPPLIERS�� CREDIT TERMS SHALL NOT EXCEED 120 DAYS."/>
+                <SFLFld Data_Index="0066037" Value="&#160;001000"/>
+            </SFLLine>
+            <SFLLine Line_Index="0002">
+                <SFLFld Data_Index="0000001" Value=""/>
+                <SFLFld Data_Index="0001065" Value=""/>
+                <SFLFld Data_Index="0066037" Value="&#160;002000"/>
+            </SFLLine>
+            <SFLLine Line_Index="0003">
+                <SFLFld Data_Index="0000001" Value=""/>
+                <SFLFld Data_Index="0001065" Value=""/>
+                <SFLFld Data_Index="0066037" Value="&#160;003000"/>
+            </SFLLine>
+            <SFLLine Line_Index="0004">
+                <SFLFld Data_Index="0000001" Value=""/>
+                <SFLFld Data_Index="0001065" Value=""/>
+                <SFLFld Data_Index="0066037" Value="&#160;004000"/>
+            </SFLLine>
+            <SFLLine Line_Index="0005">
+                <SFLFld Data_Index="0000001" Value=""/>
+                <SFLFld Data_Index="0001065" Value=""/>
+                <SFLFld Data_Index="0066037" Value="&#160;005000"/>
+            </SFLLine>
+            <SFLLine Line_Index="0006">
+                <SFLFld Data_Index="0000001" Value=""/>
+                <SFLFld Data_Index="0001065" Value=""/>
+                <SFLFld Data_Index="0066037" Value="&#160;006000"/>
+            </SFLLine>
+            <SFLLine Line_Index="0007">
+                <SFLFld Data_Index="0000001" Value=""/>
+                <SFLFld Data_Index="0001065" Value=""/>
+                <SFLFld Data_Index="0066037" Value="&#160;007000"/>
+            </SFLLine>
+            <SFLLine Line_Index="0008">
+                <SFLFld Data_Index="0000001" Value=""/>
+                <SFLFld Data_Index="0001065" Value=""/>
+                <SFLFld Data_Index="0066037" Value="&#160;008000"/>
+            </SFLLine>
+            <SFLLine Line_Index="0009">
+                <SFLFld Data_Index="0000001" Value=""/>
+                <SFLFld Data_Index="0001065" Value=""/>
+                <SFLFld Data_Index="0066037" Value="&#160;009000"/>
+            </SFLLine>
+            <SFLLine Line_Index="0010">
+                <SFLFld Data_Index="0000001" Value=""/>
+                <SFLFld Data_Index="0001065" Value=""/>
+                <SFLFld Data_Index="0066037" Value="&#160;010000"/>
+            </SFLLine>
+        </ScrSFL>
+    </Screen_Layout>
+ </MSG>
